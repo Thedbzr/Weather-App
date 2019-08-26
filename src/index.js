@@ -6,9 +6,6 @@ import App from "./App";
 import Home from './components/home'
 import Cities from './components/cities'
 
-
-
-
 ReactDOM.render(
   <Router>
     <App>
