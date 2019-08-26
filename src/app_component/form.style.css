@@ -4,17 +4,25 @@ form{
 
 form input[name="city"],
 form input[name="country"]{
-    background-color: transparent;
+    background-color: transparent !important;
     color: white;
     border:0;
+    box-shadow: 0;
     border-bottom: 2px solid whitesmoke;
     border-radius: 0;
 }
 
-form input:focus {
-    background-color: transparent !important;
+.container {
+    margin-top: 1.2rem;
+  }
+  
+  .container input,
+  .container ::-webkit-input-placeholder {
+    color: white !important;
+  }
+  .container input:focus {
+    background-color: transparent;
     box-shadow: none !important;
-}
-form input.container ::-webkit-input-placeholder,{
-     color: white !important;
- }
+    border: none;
+    border-bottom: 2px solid whitesmoke;
+  }
