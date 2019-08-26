@@ -4,7 +4,7 @@ import "../assets/css/cities.css";
 const Cities = () => {
   return (
     <React.Fragment>
-      <table id="citiesDatabase" align="center">
+      <table id="cityDatabase" align="center">
         <tr class="header">
           <th>City</th>
           <th>Country</th>

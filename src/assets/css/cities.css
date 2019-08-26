@@ -1,32 +1,25 @@
-  #citiesDatabase {
-    color: white;
-    border-collapse: collapse;
-    width: 85%;
-    border: 1px solid #ddd;
-    font-size: 18px;
-    text-align: center;
-  }
-  #citiesDatabase th, #citiesDatabase td {
-    text-align: left;
-    padding: 12px;
-    text-align: center;
-  }
-  #citiesDatabase tr {
-    border-bottom: 1px solid #ddd;
-    text-align: center;
-  }
-  #citiesDatabase tr.header, #citiesDatabase tr:hover {
-    background-color: brown;
-    text-align: center;
-  }
-     
-  h1 {
-    color: #f56642;
-    transition: 0.3s;
-  }
-  p {
-    text-align: center;
-  }
-th {
-    width: 50%
+#cityDatabase {
+  margin-top: 5%;
+  color: white;
+  border-collapse: collapse;
+  width: 85%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+  text-align: center;
+}
+#cityDatabase th,
+#cityDatabase td {
+  width: 50%;
+  text-align: left;
+  padding: 12px;
+  text-align: center;
+}
+#cityDatabase tr {
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+#cityDatabase tr.header,
+#cityDatabase tr:hover {
+  background-color: brown;
+  text-align: center;
 }
